@@ -23,7 +23,6 @@ html, body {
 }
 
 .accessibilityTips {
-  position: absolute;
   bottom: 0;
   color: #595959;;
   width: 100%;
@@ -290,3 +289,24 @@ display: none;
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 623px) {
+  .resumeContainer {
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  #rightSide {
+    padding: 10px;
+  }
+  #leftSide {
+    text-align: center;
+  }
+  .highlightContainer {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
+
+

@@ -1,10 +1,10 @@
-export default function Customjs() {
+// export default function Customjs() {
   
   
 
-    function switchThis() {
-        console.log(this);
-      }
+//     function switchThis() {
+//         console.log(this);
+//       }
 
 
-}
+// }

@@ -296,6 +296,7 @@ display: none;
     margin: 20px;
     padding: 5px;
     font-size: 14px;
+    height: 100%;
   }
   #rightSide {
     padding: 10px;

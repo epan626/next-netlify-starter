@@ -13,7 +13,7 @@ export default function Home() {
      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"/>
      </Head>
-onClick={this.switchView(this, id)}
+
     <div class="landing">
             <div class="container">
                 <div id="stateBanner">
@@ -40,11 +40,6 @@ onClick={this.switchView(this, id)}
                             <p>I am currently learning about Web 3.</p>
                             <p>Trying to reach me? Contact me at: <a href="mailto:epan626@gmail.com">epan626@gmail.com</a></p>
                         </div>
-                    </div>
-                <div class="highlightContainer">
-                    <label class="switch">
-                        <input autocomplete="off" id="highlighter" onchange="highlight(this)" type="checkbox" value="true"/> <span>Turn <span id="highlightState">on</span> highlights.</span>
-                    </label>
                     </div>
                     <div class="resumeContainer" tabindex="-1">
                         <div class="jobContainer">

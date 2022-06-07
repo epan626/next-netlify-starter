@@ -1,10 +1,10 @@
-export default function Custom() {
+// export default function Custom() {
   
-    const switchThis = (e, text) => {
-        console.log(text);
-      };
+//     const switchThis = (e, text) => {
+//         console.log(text);
+//       };
 
 
 
 
-}
+// }

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 // import Header from '@components/Header'
 // import Footer from '@components/Footer'
-import Custom from '@components/Custom'
+// import Custom from '@components/Custom'
 import Script from 'next/script';
 import { Fragment } from 'react';
 
@@ -12,6 +12,7 @@ export default function Home() {
      <title>Eric Pan</title>
      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"/>
+      <Script src="/static/custom.js"/>
      </Head>
 
     <div class="landing">

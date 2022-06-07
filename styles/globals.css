@@ -312,3 +312,12 @@ display: none;
 }
 
 
+@media only screen and (max-width: 375px) {
+  .bio {
+    width: 90%;
+    MARGIN: 0 auto;
+}
+.resumeContainer {
+  width: 95%;
+}
+}

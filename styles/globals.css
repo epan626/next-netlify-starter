@@ -232,10 +232,10 @@ h2.jobTitle {
 }
 
 .landingOptionsCont a:hover  .landingOptionMe .toolTips,   .landingOptionsCont a:focus .landingOptionMe .toolTips, .highlight:hover .toolTips, .highlight:focus .toolTips  {
-  width: 258px;
+  width: 100%;
 }
 .landingOptionsCont a:hover  .landingOptionTravel .toolTips,   .landingOptionsCont a:focus .landingOptionTravel .toolTips, .highlight:hover .toolTips, .highlight:focus .toolTips   {
-  width: 216px;
+  width: 100%;
   left: -5px;
 }
 .smaller {

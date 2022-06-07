@@ -10,9 +10,9 @@ box-shadow: 0 0 0 2px #F9F9D1, 0 0 0 3px #396196, 0 0 4px 3px #F9F9D1;
   box-shadow: 0 0 0 2px #F9F9D1, 0 0 0 3px #396196, 0 0 4px 3px #F9F9D1;
   
 }
-.landingOptionsCont a:hover div, .landingOptionsCont a:focus div {
+/* .landingOptionsCont a:hover div, .landingOptionsCont a:focus div {
   box-shadow: none;
-}
+} */
 a {
   color: #16344f;
 }
@@ -309,6 +309,10 @@ display: none;
     margin-bottom: 5px;
     width: 100%;
   }
+  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont button:focus div .toolTips, .landingOptionsCont button:hover div .toolTips {
+    width: 100px;
+  }
+
 }
 
 
@@ -323,7 +327,7 @@ display: none;
   .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont button:focus div .toolTips, .landingOptionsCont button:hover div .toolTips {
     width: 100px;
   }
-  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont a:focus .landingOptionTravel .toolTips, .landingOptionsCont a:hover .landingOptionTravel .toolTips{
+  .landingOptionsCont   a:focus .landingOptionTravel .toolTips, .landingOptionsCont a:hover .landingOptionTravel .toolTips{
     width: 120px;
   }
 }

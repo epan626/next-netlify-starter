@@ -21,7 +21,8 @@ export default function Home() {
                 </div>
                 <div id="leftSide">
                     <nav class="landingOptionsCont">
-                        <button class="meSwitcher active" id="meSwitcher" tabindex="0"><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
+                    <button onClick{() => switchThis()}></button>
+                        <button class="meSwitcher active" onClick{ () => switchThis()} id="meSwitcher" tabindex="0" ><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
                         <button class="resumeSwitcher" id="resumeSwitcher"  tabindex="0"><div class="landingOptionWork"><span class="landingOptionText">Resume</span><span class="toolTips">Some of my work experiences.</span></div> </button>               
                     </nav>
                     <div class="landingCont">

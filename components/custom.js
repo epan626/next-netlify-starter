@@ -6,6 +6,10 @@ export default function Customjs() {
     const meSwitch = document.getElementById('meSwitcher');
     const locationText = document.getElementById('locationText');
     const resumeSwitch = document.getElementById('resumeSwitcher');
+
+    function switchThis() {
+        console.log(this)
+      }
     resumeSwitch.addEventListener("click", function() {
         resume[0].style.display = "block";
         // highlight[0].style.display = "block";
@@ -29,6 +33,5 @@ export default function Customjs() {
         meSwitch.classList.add("active");
         locationText.innerText = "homepage"
     });
-
 
 }

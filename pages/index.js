@@ -12,7 +12,14 @@ export default function Home() {
      <title>Eric Pan</title>
      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"/>
-      <Script src="/static/custom.js"/>
+      {/* <Script type="text/javascript" src="/static/custom.js" dangerouslySetInnerHTML={{ __html: process.env.rawJsFromFile }}></Script> */}
+      <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                      console.log('yo');
+                  `,
+            }}
+          ></script>
      </Head>
 
     <div class="landing">

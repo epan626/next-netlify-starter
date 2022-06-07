@@ -8,7 +8,7 @@ export default function Customjs() {
     const resumeSwitch = document.getElementById('resumeSwitcher');
     resumeSwitch.addEventListener("click", function() {
         resume[0].style.display = "block";
-        highlight[0].style.display = "block";
+        // highlight[0].style.display = "block";
         aboutMe[0].style.display = "none";
         resumeSwitch.style.background = "#8e8e8e";
         meSwitch.style.background = "#366f57";
@@ -22,7 +22,7 @@ export default function Customjs() {
 
         aboutMe[0].style.display = "block"
         resume[0].style.display = "none";
-        highlight[0].style.display = "none";       
+        // highlight[0].style.display = "none";       
         meSwitch.style.background = "#8e8e8e";
         resumeSwitcher.style.background = "#366f57";
         resumeSwitcher.classList.remove("active");

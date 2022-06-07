@@ -11,9 +11,7 @@ export default function Home() {
      <Head>
      <title>Eric Pan</title>
      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"/>
-      {/* <Script type="text/javascript" src="/static/custom.js" dangerouslySetInnerHTML={{ __html: process.env.rawJsFromFile }}></Script> */}
-      
+     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"/>
      </Head>
 
     <div class="landing">
@@ -103,7 +101,6 @@ export default function Home() {
               const highlight = document.getElementsByClassName('highlightContainer');
               const aboutMe = document.getElementsByClassName('aboutMeContainer');
               const meSwitch = document.getElementById('meSwitcher');
-              const locationText = document.getElementById('locationText');
               const resumeSwitch = document.getElementById('resumeSwitcher');
               const switchThis = (e, text) => {
                 if(text == "resume") {
@@ -113,7 +110,7 @@ export default function Home() {
                   meSwitch.style.background = "#366f57";
                   meSwitch.classList.remove("active");
                   resumeSwitch.classList.add("active");
-                  locationText.innerText = "resume";
+                  document.getElementById('locationText').innerHTML = "resume";
                 } else {
                   aboutMe[0].style.display = "block"
                   resume[0].style.display = "none";     
@@ -121,7 +118,7 @@ export default function Home() {
                   resumeSwitch.style.background = "#366f57";
                   resumeSwitch.classList.remove("active");
                   meSwitch.classList.add("active");
-                  locationText.innerText = "homepage";
+                  document.getElementById('locationText').innerHTML = "homepage";
                 }
               };
                   `,

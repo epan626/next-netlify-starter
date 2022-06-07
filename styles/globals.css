@@ -316,8 +316,14 @@ display: none;
   .bio {
     width: 90%;
     MARGIN: 0 auto;
-}
-.resumeContainer {
-  width: 95%;
-}
+  }
+  .resumeContainer {
+    width: 95%;
+  }
+  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont button:focus div .toolTips, .landingOptionsCont button:hover div .toolTips {
+    width: 100px;
+  }
+  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont a:focus .landingOptionTravel .toolTips, .landingOptionsCont a:hover .landingOptionTravel .toolTips{
+    width: 120px;
+  }
 }

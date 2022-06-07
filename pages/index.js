@@ -16,7 +16,9 @@ export default function Home() {
       <script
             dangerouslySetInnerHTML={{
               __html: `
-                      console.log('yo');
+              const switchThis = (e, text) => {
+                console.log(text);
+              };
                   `,
             }}
           ></script>

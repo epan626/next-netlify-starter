@@ -280,7 +280,7 @@ display: none;
   background: #8e8e8e !important;
 }
 
-@media only screen and (min-width: 945px) {
+@media only screen and (max-width: 946px) {
   .landing .container {
     display: flex;
     flex-direction: column;

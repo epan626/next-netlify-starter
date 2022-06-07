@@ -42,6 +42,11 @@ export default function Home() {
                             <p>Trying to reach me? Contact me at: <a href="mailto:epan626@gmail.com">epan626@gmail.com</a></p>
                         </div>
                     </div>
+                    <div class="highlightContainer">
+                      <label class="switch">
+                          <input autocomplete="off" id="highlighter" onClick={(e) => highlightThis(e)} type="checkbox" value="true"/> <span>Turn <span id="highlightState">on</span> highlights.</span>
+                      </label>
+                    </div>
                     <div class="resumeContainer" tabindex="-1">
                         <div class="jobContainer">
                             <div class="jobResponsbilities">
@@ -110,6 +115,7 @@ export default function Home() {
                   meSwitch.style.background = "#366f57";
                   meSwitch.classList.remove("active");
                   resumeSwitch.classList.add("active");
+                  highlight[0].style.display = "block";
                   document.getElementById('locationText').innerHTML = "resume";
                 } else {
                   aboutMe[0].style.display = "block"
@@ -118,8 +124,51 @@ export default function Home() {
                   resumeSwitch.style.background = "#366f57";
                   resumeSwitch.classList.remove("active");
                   meSwitch.classList.add("active");
+                  highlight[0].style.display = "none";
                   document.getElementById('locationText').innerHTML = "homepage";
                 }
+              };
+                  `,
+            }}
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              const text = document.getElementsByClassName('highlight');
+              const textBlock = document.getElementsByClassName('textBlock');
+              const highlightState = document.getElementById('highlightState');
+              var flag = false;
+              const highlightThis = (e) => {
+                if(flag == false) {
+                  document.getElementById('highlightState').innerHTML = "off"
+                  for (let i = 0; i < text.length; i++) {
+                
+                      text[i].style.background = '#eec870';
+                      text[i].style.padding = '2px';
+                      text[i].style.borderRadius = '5px';
+                      text[i].style.color  = '#AC0C0C';
+                      text[i].style.margin ="3px";
+                      
+                  }
+                  for (let x = 0; x < textBlock.length; x++) {
+                      textBlock[x].style.lineHeight = "30px";
+                  }
+              
+                  flag = true
+                  } else {
+                    document.getElementById('highlightState').innerHTML = "on"
+                      for (let i = 0; i < text.length; i++) {
+                          text[i].style.background = '#fff3e8';
+                      text[i].style.padding = '0px';
+                      text[i].style.borderRadius = '0px';
+                      text[i].style.color  = '#595959';
+                      text[i].style.margin ="0px";
+                      }
+                      for (let x = 0; x < textBlock.length; x++) {
+                          textBlock[x].style.lineHeight = "normal";
+                      }
+                      flag = false
+                  } 
               };
                   `,
             }}

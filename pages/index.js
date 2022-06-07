@@ -1,7 +1,7 @@
 import Head from 'next/head';
 // import Header from '@components/Header'
 // import Footer from '@components/Footer'
-import Customjs from "@components/custom.js"
+import Customjs from "@components/Custom"
 import Script from 'next/script'
 import { Fragment } from 'react';
 

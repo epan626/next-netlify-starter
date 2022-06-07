@@ -26,8 +26,10 @@ html, body {
   position: absolute;
   bottom: 0;
   color: #595959;;
-  margin-left: 10px;
-  margin-bottom: 25px;
+  width: 100%;
+}
+.accessibilityTips p {
+  margin-left: 10px
 }
 .accessibilityTips span {
   font-size: 20px;
@@ -276,4 +278,15 @@ display: none;
 }
 .active {
   background: #8e8e8e !important;
+}
+
+@media only screen and (min-width: 945px) {
+  .landing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftSide {
+    text-align: center;
+  }
 }

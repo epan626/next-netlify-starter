@@ -37,35 +37,35 @@ export default function Customjs() {
                 flag = false
             }  
     }
-    function switchView(x){
-        const resume = document.getElementsByClassName('resumeContainer');
-        const highlight = document.getElementsByClassName('highlightContainer');
-        const aboutMe = document.getElementsByClassName('aboutMeContainer');
-        const meSwitch = document.getElementsByClassName('meSwitcher');
-        const resumeSwitch = document.getElementsByClassName('resumeSwitcher');
-        const locationText = document.getElementById('locationText');
-        if(x == "resume"){
-             resume[0].style.display = "block";
-             highlight[0].style.display = "block";
-             aboutMe[0].style.display = "none";
-             resumeSwitch[0].style.background = "#8e8e8e";
-             meSwitch[0].style.background = "#366f57";
-             meSwitch[0].classList.remove("active");
-             resumeSwitch[0].classList.add("active");
-             locationText.innerText = "resume"
-             
-        }
-            else {
-            aboutMe[0].style.display = "block"
-            resume[0].style.display = "none";
-            highlight[0].style.display = "none";       
-            meSwitch[0].style.background = "#8e8e8e";
-            resumeSwitch[0].style.background = "#366f57";
-            resumeSwitch[0].classList.remove("active");
-            meSwitch[0].classList.add("active");
-            locationText.innerText = "homepage"
-        }
-        
-    }
+    const resume = document.getElementsByClassName('resumeContainer');
+    const highlight = document.getElementsByClassName('highlightContainer');
+    const aboutMe = document.getElementsByClassName('aboutMeContainer');
+    const meSwitch = document.getElementById('meSwitcher');
+    const locationText = document.getElementById('locationText');
+    const resumeSwitch = document.getElementById('resumeSwitcher');
+    resumeSwitch.addEventListener("click", function() {
+        resume[0].style.display = "block";
+        highlight[0].style.display = "block";
+        aboutMe[0].style.display = "none";
+        resumeSwitch.style.background = "#8e8e8e";
+        meSwitch.style.background = "#366f57";
+        meSwitch.classList.remove("active");
+        resumeSwitch.classList.add("active");
+        locationText.innerText = "resume"
+
+      });
+
+      meSwitch.addEventListener("click", function() {
+
+        aboutMe[0].style.display = "block"
+        resume[0].style.display = "none";
+        highlight[0].style.display = "none";       
+        meSwitch.style.background = "#8e8e8e";
+        resumeSwitcher.style.background = "#366f57";
+        resumeSwitcher.classList.remove("active");
+        meSwitch.classList.add("active");
+        locationText.innerText = "homepage"
+    });
+
 
 }

@@ -21,8 +21,8 @@ onClick={this.switchView(this, id)}
                 </div>
                 <div id="leftSide">
                     <nav class="landingOptionsCont">
-                        <button class="meSwitcher active" id="meSwitcher" tabindex="0"  onClick="() => switchView(this, id)"><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
-                        <button class="resumeSwitcher" id="resumeSwitcher"  tabindex="0"  onClick="() => switchView(this, id)"><div class="landingOptionWork"><span class="landingOptionText">Resume</span><span class="toolTips">Some of my work experiences.</span></div> </button>               
+                        <button class="meSwitcher active" id="meSwitcher" tabindex="0"><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
+                        <button class="resumeSwitcher" id="resumeSwitcher"  tabindex="0"><div class="landingOptionWork"><span class="landingOptionText">Resume</span><span class="toolTips">Some of my work experiences.</span></div> </button>               
                     </nav>
                     <div class="landingCont">
                         <p><span>Try using your keyboard to navigate this site.</span></p>

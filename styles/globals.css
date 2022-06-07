@@ -215,7 +215,7 @@ h2.jobTitle {
   background: #f0f0f0 no-repeat 100% 5%;
   left: 0px;
   margin: 10px;
-  width: 357px;
+  width: 125px;
   position: absolute;
   text-decoration: none;
   color: black;
@@ -231,13 +231,6 @@ h2.jobTitle {
   top: -70px !important;
 }
 
-.landingOptionsCont a:hover  .landingOptionMe .toolTips,   .landingOptionsCont a:focus .landingOptionMe .toolTips, .highlight:hover .toolTips, .highlight:focus .toolTips  {
-  width: 100%;
-}
-.landingOptionsCont a:hover  .landingOptionTravel .toolTips,   .landingOptionsCont a:focus .landingOptionTravel .toolTips, .highlight:hover .toolTips, .highlight:focus .toolTips   {
-  width: 100%;
-  left: -5px;
-}
 .smaller {
   width: 100px !important;
   text-align: center;
@@ -309,9 +302,7 @@ display: none;
     margin-bottom: 5px;
     width: 100%;
   }
-  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont button:focus div .toolTips, .landingOptionsCont button:hover div .toolTips {
-    width: 100px;
-  }
+
 
 }
 
@@ -324,10 +315,5 @@ display: none;
   .resumeContainer {
     width: 95%;
   }
-  .highlight:focus .toolTips, .highlight:hover .toolTips, .landingOptionsCont button:focus div .toolTips, .landingOptionsCont button:hover div .toolTips {
-    width: 100px;
-  }
-  .landingOptionsCont   a:focus .landingOptionTravel .toolTips, .landingOptionsCont a:hover .landingOptionTravel .toolTips{
-    width: 120px;
-  }
+
 }

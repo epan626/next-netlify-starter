@@ -23,7 +23,7 @@ export default function Home() {
                 <div id="rightSide"> 
                     <div class="aboutMeContainer">
                         <div class="profile">
-                            <img src="/ProfilePic.jpg" alt="Yes, this is an actual picture of Eric Pan">
+                            <img src="/ProfilePic.jpg" alt="Yes, this is an actual picture of Eric Pan"/>
                         </div>
                         <div class="bio">
                             <h1>Hi, I'm Eric Pan.</h1>
@@ -35,7 +35,7 @@ export default function Home() {
                     </div>
                 <div class="highlightContainer">
                     <label class="switch">
-                        <input autocomplete="off" id="highlighter" onchange="highlight(this)" type="checkbox" value="true"> <span>Turn <span id="highlightState">on</span> highlights.</span>
+                        <input autocomplete="off" id="highlighter" onchange="highlight(this)" type="checkbox" value="true"/> <span>Turn <span id="highlightState">on</span> highlights.</span>
                     </label>
                     </div>
                     <div class="resumeContainer" tabindex="-1">

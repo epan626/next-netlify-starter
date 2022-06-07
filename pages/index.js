@@ -21,8 +21,8 @@ export default function Home() {
                 </div>
                 <div id="leftSide">
                     <nav class="landingOptionsCont">
-                        <button class="meSwitcher active" id="meSwitcher" tabindex="0"  onClick={this.switchView(this, id)} onclick="switchView('me')"><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
-                        <button class="resumeSwitcher" id="resumeSwitcher"  tabindex="0" onClick={this.switchView(this, id)}  onclick="switchView('resume')"><div class="landingOptionWork"><span class="landingOptionText">Resume</span><span class="toolTips">Some of my work experiences.</span></div> </button>               
+                        <button class="meSwitcher active" id="meSwitcher" tabindex="0"  onclick="switchView('me')"><div class="landingOptionMe"><span class="landingOptionText">Me</span><span class="toolTips">A little bit about myself.</span> </div> </button>
+                        <button class="resumeSwitcher" id="resumeSwitcher"  tabindex="0"  onclick="switchView('resume')"><div class="landingOptionWork"><span class="landingOptionText">Resume</span><span class="toolTips">Some of my work experiences.</span></div> </button>               
                     </nav>
                     <div class="landingCont">
                         <p><span>Try using your keyboard to navigate this site.</span></p>

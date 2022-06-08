@@ -50,9 +50,10 @@ export default function Home() {
                                 <div class="jobNameDuration"><h3>Los Angeles Housing Department</h3>
                                 <p class="start">10/2018 - Present</p> </div>
                                 <h2 class="jobTitle">Systems Analyst</h2>
-                                <p>Department's <span tabindex="0" class="highlight">webmaster<span class="toolTips">Responsible for maintaining, upgrading, and supporting the department's public facing websites and intranet.</span>.</span></p>
-                                <p><span tabindex="0" class="highlight">Supervised<span class="toolTips">Team was responsible for remediating PDFs for accessibility and providing web support.</span> </span> System Contractors and Student Workers.</p>
-                                <p>Trained and provided support in <span tabindex="0" class="highlight">Web and PDF Accessbility<span class="toolTips">We used CommonLook, Monsido, and worked with third party auditors to ensure our websites were at least WCAG 2.0 compliant.</span></span>.</p>                            
+                                <p>Department's <span tabindex="0" class="highlight">webmaster<span class="toolTips">Responsible for the department's public facing websites with over a million visitors each year.</span>.</span></p>
+                                <p><span tabindex="0" class="highlight">Redesigned and rebranded <span class="toolTips">Increased web traffic by 40% the following year after the redesign.</span></span> the department's website/</p>
+                                <p><span tabindex="0" class="highlight">Supervised<span class="toolTips">Trained, mentored, and monitored staff to be proficient in performing their task. Some promoted and stayed within the city. Others moved onto better opportunites in the private sector.</span> </span> System Contractors and Student Workers.</p>
+                                <p>Trained, worked, and provided support department wide in <span tabindex="0" class="highlight">Web and PDF Accessbility<span class="toolTips">Led and developed PDF accessibility training department wide. Training includes: user manual, virtual, in-person, one-on-one, and group trainings. Provided development support for web accessibility.</span></span>.</p>                            
                                 <p class="textBlock">Tech used: <span tabindex="0" class="highlight">Wordpress, Drupal,<span class="toolTips">Content Management Systems (CMS)</span></span> <span tabindex="0" class="highlight">Monsido, CommonLook, Adobe Pro, NVDA, JAWS,<span class="toolTips">Accessibility Tools</span></span> <span tabindex="0" class="highlight">IIS, Windows Server 2016/2019, Apache,<span class="toolTips smaller">Servers</span></span>  <span tabindex="0" class="highlight">ServiceNow, Jira<span class="toolTips smaller">Ticketing System</span></span>  <span tabindex="0" class="highlight">GitHub, GIT, Team Foundation Server (TFS) <span class="toolTips smaller moveleft">Source Control</span></span></p>
                             </div>     
                         </div>
@@ -86,7 +87,7 @@ export default function Home() {
                                 <p>Duties: Asset tag management, BIOS configuration, enterprise enrollment, imaging desktops/laptops to
                                     their respected settings, script editing, provided tech support in the field, upgrading
                                     desktop/laptop hardware and software, workbench testing</p>
-                                <p class="textBlock">Tech used: <span tabindex="0" class="highlight upper">iOS, Windows 7 and 8.1,<span class="toolTips">Operating Systems</span></span>, Absolute, MS office, <span tabindex="0" class="highlight upper moveLeft">SoftThink, Ghost, GimageX, Sysprep, Fred, Deployment Studios.<span class="toolTips">Imaging Softwares</span></span></p>
+                                <p class="textBlock">Tech used: OS, Windows 7 and 8.1, Absolute, MS office, <span tabindex="0" class="highlight upper moveLeft">SoftThink, Ghost, GimageX, Sysprep, Fred, Deployment Studios.<span class="toolTips">Imaging Softwares</span></span></p>
                             </div>
                         </div>
                     </div>

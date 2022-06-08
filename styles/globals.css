@@ -199,6 +199,7 @@ h2.jobTitle {
   border-bottom: 1px dashed;
   text-decoration: none;
   width: 100%;
+  font-size: 14px !important;
 }
 .toolTips:hover, .highlight:focus, .highlight:hover,  .highlight:focus   {
   cursor: help;
